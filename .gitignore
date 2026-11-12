@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+firmware/.pio/
+firmware/.vscode/
+*.db
+.DS_Store
