@@ -1,0 +1,6 @@
+body { background: #f4f6f8; }
+.fillbar { height: 10px; background: #e9ecef; border-radius: 5px; overflow: hidden; min-width: 120px; }
+.fillbar > div { height: 100%; background: #198754; transition: width .4s; }
+.fillbar.warn > div { background: #ffc107; }
+.fillbar.crit > div { background: #dc3545; }
+#routeOut ol { padding-left: 1.2rem; }
